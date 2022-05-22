@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../../assets/css/styles.css">
+
+        <title>Zenlo.com | Peet to Peer</title>
+        <link rel="shortcut icon" type="image" href="/assets/img/logo.png">
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <img src="/assets/img/logo.png" alt="" width="40px">
+                <a href="#" class="nav__logo">Zenlo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Pendanaan</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Pinjaman</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Tentang Zenlo</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Dampak Sosial</a>
+                        </li>
+                       
+
+                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+               
+                
+                <a href="/login/index.html" class="button button__header">Login</a>
+            </nav>
+        </header>
+         <!--=============== SLIDER ===============-->
+     
+
+            <!--=============== CONTACT US ===============-->
+            <section class="contact section container" id="contact">
+                <div class="contact__container grid">
+                    <div class="contact__content">
+                        <p>Langganan Email Zenlo</p>
+                        <h2 class="section__title-center">Dapatkan info terbaru  <br> tentang Zenlo</h2>
+                       
+                        <p class="contact__description">Anda dapat menghubungi kami dari sini,
+                            Anda dapat menulis kepada kami, menghubungi kami atau mengunjungi pusat layanan kami, kami akan dengan senang hati membantu Anda.</p>
+                    </div>
+
+                    <ul class="contact__content grid">
+                        <li class="contact__address">Telephone: <span class="contact__information">000 - 0000 - 000</span></li>
+                        <li class="contact__address">Email:  <span class="contact__information">zenloid@email.com</span></li>
+                        <li class="contact__address">Location: <span class="contact__information">Telkom University</span></li>
+                    </ul>
+
+                    <div class="contact__content">
+                        <a href="#" class="button">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    
+                    <a href="#" class="footer__logo">Layanan</a>
+                    <p class="footer__description">Pinjaman Usaha <br> Pendanaan</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Zenlo</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Tentang Kami </a></li>
+                        <li><a href="#" class="footer__link">Karir</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Media</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Press</a></li>
+                        <li><a href="#" class="footer__link">Learning Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Kontak Kami</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">+62872131</a></li>
+                        <li><a href="#" class="footer__link">zenloid@email.com</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Zenlo. All right reserved</p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        
+         <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    </body>
+</html>
